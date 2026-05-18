@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e35785f9acbb7427fb38a829e2ad8947, type: 3}
+  m_Name: ImageTrackerGlobalSettings
+  m_EditorClassIdentifier: 
+  imageTargetInfos:
+  - id: flower
+    texture: {fileID: 2800000, guid: 22e6e002c40714983b84e5721851d377, type: 3}
+  - id: Doodle
+    texture: {fileID: 2800000, guid: 73cdc05aa9e504ee2854853732c3031e, type: 3}
+  - id: Target
+    texture: {fileID: 2800000, guid: c170deaa41669f046b54c9cd080e8f60, type: 3}
+  - id: Target
+    texture: {fileID: 2800000, guid: c170deaa41669f046b54c9cd080e8f60, type: 3}
+  settingsTemplates:
+  - {fileID: 11400000, guid: 35c99cc7b662a46eb89cc7a32e239494, type: 2}
+  - {fileID: 11400000, guid: 9cf415d375f91458483df57436950575, type: 2}
+  - {fileID: 11400000, guid: 0508c212924fd4cb2bf988475d28faa3, type: 2}
+  - {fileID: 11400000, guid: 7076d90bd1bc04ee3af02815db0dfee3, type: 2}
+  - {fileID: 11400000, guid: 4c91993c0df8b45b38b50506a4c9b1aa, type: 2}
+  - {fileID: 11400000, guid: 445b583e5873b49c2b6bec84c64d7c38, type: 2}
