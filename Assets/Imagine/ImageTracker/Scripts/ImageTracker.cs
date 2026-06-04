@@ -45,7 +45,7 @@ namespace Imagine.WebAR
 
         [SerializeField] private bool dontDeactivateOnLost = false;
 
-        [SerializeField] private UnityEvent<string> OnImageFound, OnImageLost;
+       public UnityEvent<string> OnImageFound, OnImageLost;
 
         [SerializeField] [Range(1f, 5f)] private float debugCamMoveSensitivity = 2f;
         [SerializeField] [Range(10f, 50f)] private float debugCamTiltSensitivity = 30f;
@@ -170,7 +170,7 @@ namespace Imagine.WebAR
             return IsWebGLImageTracked(id);
         }
 
-        void OnTrackingFound(string id)
+       public  void OnTrackingFound(string id)
         {
             if (!targets.ContainsKey(id))
                 return;
@@ -185,7 +185,7 @@ namespace Imagine.WebAR
             OnImageFound?.Invoke(id);
         }
 
-        void OnTrackingLost(string id)
+        public void OnTrackingLost(string id)
         {
             if (!targets.ContainsKey(id))
                 return;
@@ -204,12 +204,12 @@ namespace Imagine.WebAR
             OnImageLost?.Invoke(id);
         }
 
-        void OnTrack(string data)
+       public  void OnTrack(string data)
         {
             ParseData(data);
         }
 
-        void ParseData(string data)
+        public void ParseData(string data)
         {
             string[] values = data.Split(new char[] { ',' });
 
@@ -375,6 +375,9 @@ namespace Imagine.WebAR
             trackerCam.transform.Translate(dp);
             trackerCam.transform.rotation = rot;
         }
+        
+
     }
+    
 }
 
