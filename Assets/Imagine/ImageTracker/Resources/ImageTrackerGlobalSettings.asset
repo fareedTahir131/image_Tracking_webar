@@ -15,6 +15,16 @@ MonoBehaviour:
   imageTargetInfos:
   - id: Target
     texture: {fileID: 2800000, guid: c170deaa41669f046b54c9cd080e8f60, type: 3}
+  - id: monetart
+    texture: {fileID: 2800000, guid: 1c29a4acf72e97842bbf5ed542868774, type: 3}
+  - id: Plane
+    texture: {fileID: 2800000, guid: 804b47c131b272d44b6e6a7e6038fc02, type: 3}
+  - id: AirPlane
+    texture: {fileID: 2800000, guid: 359125ad7185a5641a9cb0269e279153, type: 3}
+  - id: CardWebArTarget
+    texture: {fileID: 2800000, guid: fa53f96dce9fc3342b54306591a8456d, type: 3}
+  - id: TahirCard
+    texture: {fileID: 2800000, guid: d2945358a2c697b488a8d5e3202864f0, type: 3}
   settingsTemplates:
   - {fileID: 11400000, guid: 35c99cc7b662a46eb89cc7a32e239494, type: 2}
   - {fileID: 11400000, guid: 9cf415d375f91458483df57436950575, type: 2}
