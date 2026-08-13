@@ -25,6 +25,8 @@ MonoBehaviour:
     texture: {fileID: 2800000, guid: fa53f96dce9fc3342b54306591a8456d, type: 3}
   - id: TahirCard
     texture: {fileID: 2800000, guid: d2945358a2c697b488a8d5e3202864f0, type: 3}
+  - id: target_Tahir
+    texture: {fileID: 2800000, guid: 46ff79582aecc5a45b5e4713bee8e5ae, type: 3}
   settingsTemplates:
   - {fileID: 11400000, guid: 35c99cc7b662a46eb89cc7a32e239494, type: 2}
   - {fileID: 11400000, guid: 9cf415d375f91458483df57436950575, type: 2}
